@@ -1,4 +1,3 @@
-document.querySelector("#cek").addEventListener("click", () => {
-  document.querySelector("#hasil").textContent =
-    "JavaScript berhasil berjalan di browser!";
-});
+console.log("Portfolio Elizabeth berhasil dimuat.");
+
+console.log("Deployed with Cloudflare Workers Static Assets.");

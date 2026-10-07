@@ -1,28 +1,375 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cloudflare Static Website</title>
+
+  <meta
+    name="description"
+    content="Portfolio Elizabeth Anggun - Student, Web Developer, DevOps & Cloud Enthusiast."
+  >
+
+  <title>Elizabeth Anggun — Portfolio</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-content">
+
+      <a href="#home" class="logo">
+        Elizabeth<span>.</span>
+      </a>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+    </div>
+  </header>
+
+
   <main>
-    <h1>Hello Cloudflare!</h1>
 
-    <p>
-      Website ini dideploy dari GitHub
-      ke Cloudflare Workers Static Assets.
-    </p>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-content">
 
-    <button id="cek">
-      Cek JavaScript
-    </button>
+        <div class="hero-text">
 
-    <p id="hasil"></p>
+          <p class="eyebrow">
+            STUDENT • DEVELOPER • CLOUD ENTHUSIAST
+          </p>
+
+          <h1>
+            Building things with
+            <span>code & cloud.</span>
+          </h1>
+
+          <p class="hero-description">
+            I'm Elizabeth Anggun, a student interested in
+            Web Development, DevOps, Cloud Computing,
+            and Cyber Security.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary">
+              View Projects
+            </a>
+
+            <a href="#contact" class="btn secondary">
+              Contact Me
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div class="hero-card">
+
+          <div class="terminal-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="terminal-content">
+
+            <p>
+              <span class="green">$</span> whoami
+            </p>
+
+            <p class="output">
+              elizabeth
+            </p>
+
+            <p>
+              <span class="green">$</span> skills
+            </p>
+
+            <p class="output">
+              web · linux · cloud · git
+            </p>
+
+            <p>
+              <span class="green">$</span> status
+            </p>
+
+            <p class="status">
+              ● available for learning
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+
+      <div class="container">
+
+        <p class="section-label">
+          01 — ABOUT
+        </p>
+
+        <div class="about-grid">
+
+          <div>
+            <h2>
+              Curious about how
+              technology works.
+            </h2>
+          </div>
+
+          <div>
+            <p>
+              I'm a Software Infrastructure and Application
+              Engineering student who enjoys building websites,
+              configuring servers, and exploring cloud technology.
+            </p>
+
+            <p>
+              I like turning ideas into practical projects while
+              continuously learning about development, deployment,
+              networking, and cybersecurity.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+
+      <div class="container">
+
+        <p class="section-label">
+          02 — SKILLS
+        </p>
+
+        <h2>
+          Tools I work with
+        </h2>
+
+        <div class="skills">
+
+          <div class="skill">
+            <strong>HTML</strong>
+            <span>Frontend</span>
+          </div>
+
+          <div class="skill">
+            <strong>CSS</strong>
+            <span>Frontend</span>
+          </div>
+
+          <div class="skill">
+            <strong>JavaScript</strong>
+            <span>Web</span>
+          </div>
+
+          <div class="skill">
+            <strong>Laravel</strong>
+            <span>Backend</span>
+          </div>
+
+          <div class="skill">
+            <strong>Git</strong>
+            <span>Version Control</span>
+          </div>
+
+          <div class="skill">
+            <strong>Linux</strong>
+            <span>Server</span>
+          </div>
+
+          <div class="skill">
+            <strong>Docker</strong>
+            <span>DevOps</span>
+          </div>
+
+          <div class="skill">
+            <strong>Cloud</strong>
+            <span>Deployment</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+
+      <div class="container">
+
+        <p class="section-label">
+          03 — PROJECTS
+        </p>
+
+        <div class="section-heading">
+
+          <h2>
+            Things I've built.
+          </h2>
+
+          <p>
+            A few projects from my learning journey.
+          </p>
+
+        </div>
+
+
+        <div class="projects">
+
+          <article class="project">
+
+            <div class="project-number">
+              01
+            </div>
+
+            <h3>
+              Portfolio Website
+            </h3>
+
+            <p>
+              Personal portfolio website built with
+              HTML, CSS, and JavaScript and deployed
+              using Cloudflare Workers.
+            </p>
+
+            <div class="tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>Cloudflare</span>
+            </div>
+
+          </article>
+
+
+          <article class="project">
+
+            <div class="project-number">
+              02
+            </div>
+
+            <h3>
+              BagiTugas
+            </h3>
+
+            <p>
+              Task management web application developed
+              with Laravel for managing assignments,
+              users, and activity records.
+            </p>
+
+            <div class="tags">
+              <span>Laravel</span>
+              <span>PHP</span>
+              <span>MySQL</span>
+            </div>
+
+          </article>
+
+
+          <article class="project">
+
+            <div class="project-number">
+              03
+            </div>
+
+            <h3>
+              IoT Monitoring
+            </h3>
+
+            <p>
+              ESP32-based monitoring project using sensors
+              to collect environmental data and detect
+              miniature vehicles.
+            </p>
+
+            <div class="tags">
+              <span>ESP32</span>
+              <span>IoT</span>
+              <span>MicroPython</span>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="section contact-section">
+
+      <div class="container contact">
+
+        <p class="section-label">
+          04 — CONTACT
+        </p>
+
+        <h2>
+          Let's build something.
+        </h2>
+
+        <p>
+          Interested in collaborating, discussing a project,
+          or just talking about technology?
+        </p>
+
+        <a
+          href="mailto:your-email@example.com"
+          class="btn primary"
+        >
+          Say Hello →
+        </a>
+
+      </div>
+
+    </section>
+
   </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <div class="container footer-content">
+
+      <p>
+        © 2026 Elizabeth Anggun
+      </p>
+
+      <p>
+        Built with HTML, CSS & ☕
+      </p>
+
+    </div>
+
+  </footer>
+
 
   <script src="script.js"></script>
 
